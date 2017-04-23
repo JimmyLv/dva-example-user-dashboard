@@ -84,7 +84,6 @@ function Users({ dispatch, list: dataSource, loading, total, page: current }) {
           pagination={false}
         />
         <Pagination
-          className="ant-table-pagination"
           total={total}
           current={current}
           pageSize={PAGE_SIZE}
